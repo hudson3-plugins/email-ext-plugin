@@ -88,8 +88,8 @@
         </j:choose>
     </f:entry>
     
-	<!-- This is attaching the build log. -->
-    <f:entry title="Content Type"
+	<!-- This is for attaching the build log. -->
+    <f:entry title="Build Log"
              help="/plugin/email-ext/help/projectConfig/attachBuildLog.html">
       <select class="setting-input"
               name="project_attach_buildlog">
@@ -97,10 +97,10 @@
                   selected="${!instance.attachBuildLog}"
           >Do Not Attach Build Log</f:option>
         <f:option value="1"
-                  selected="${instance.attachBuildLog && !instance.compressBuildLog}"
+                  selected="${instance.attachBuildLog &amp;&amp; !instance.compressBuildLog}"
           >Attach Build Log</f:option>
         <f:option value="2"
-                  selected="${instance.attachBuildLog && instance.compressBuildLog}"
+                  selected="${instance.attachBuildLog &amp;&amp; instance.compressBuildLog}"
           >Compress and Attach Build Log</f:option>
       </select>
     </f:entry>
