@@ -5,7 +5,7 @@
         <groupId>org.eclipse.hudson.plugins</groupId>
         <artifactId>hudson-plugin-parent</artifactId>
         <version>3.0.0</version>
-        <relativePath/>
+        <relativePath />
     </parent>
 
     <groupId>org.hudsonci.plugins</groupId>
@@ -13,7 +13,7 @@
     <packaging>hpi</packaging>
     <version>2.12-h-1-SNAPSHOT</version>
     <name>Hudson Email Extension Plugin</name>
-  <description>Hudson Email Extension Plugin</description>
+    <description>Hudson Email Extension Plugin</description>
     <url>http://wiki.hudson-ci.org/display/HUDSON/Email-ext+plugin</url>
 
     <properties>
@@ -123,7 +123,7 @@
         <dependency>
             <groupId>org.hudsonci.plugins</groupId>
             <artifactId>token-macro</artifactId>
-            <version>1.8.1-h-1Req</version>
+            <version>1.8.1-h-1</version>
         </dependency>
     </dependencies>
 
