@@ -28,7 +28,7 @@ public class WorkspaceFileContent implements EmailContent {
     public String getHelpText() {
         return "Includes the content of a specified file.\n" +
         "<ul>\n" +
-        "<li><i>" + VAR_PATH_NAME + "</i> - The path to the file. Relative to the workspace root.\n" +
+        "<li><i>" + VAR_PATH_NAME + "</i> - The path to the file. Relative to the workspace root. Example: ${FILE, path=\"README\"}.\n" +
         "</ul>\n";
     }
 

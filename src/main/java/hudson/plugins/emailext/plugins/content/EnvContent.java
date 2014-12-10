@@ -49,8 +49,8 @@ public class EnvContent implements EmailContent {
 		"<ul>\n" +
 		
 		"<li><i>" + VAR_ARG_NAME + "</i> - the name of the environment " +
-				"variable to display.  If \"\", show all.<br>\n" +
-		"Defaults to \"" + VAR_DEFAULT_VALUE + "\".\n" +
+				"variable to display.  If "+VAR_ARG_NAME+"=\"\", show all.<br>\n" +
+		"Defaults to \"" + VAR_DEFAULT_VALUE + "\". Example: ${"+TOKEN+", var=\"HUDSON_HOME\"}.\n" +
 		
 		"</ul>\n";
 	}

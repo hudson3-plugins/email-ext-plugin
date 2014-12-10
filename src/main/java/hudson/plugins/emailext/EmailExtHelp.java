@@ -36,7 +36,7 @@ public class EmailExtHelp {
 				"<p>All arguments are optional. Arguments may be given for each token in the " +
                 "form <i>name=\"value\"</i> for strings and in the form <i>name=value</i> for booleans and numbers.  " +
                 "The {'s and }'s may be omitted if there are no arguments.</p>" +
-                "<p>Examples: $TOKEN, ${TOKEN}, ${TOKEN, count=100}, ${ENV, var=\"PATH\"}</p>\n" +
+                "<p>Examples: $TOKEN, ${TOKEN}, ${TOKEN, count=100}, ${ENV, var=\"VAR\"}</p>\n" +
 				"<b>Available Tokens</b>\n" +
 				"<ul>\n");
 		
